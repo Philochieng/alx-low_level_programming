@@ -1,6 +1,9 @@
 #include <stdio.h>
-int main() {
+int main(void) {
+
 	/* puts() displays the string inside quotation */
+	
 	puts("Programming is like building a multilingual puzzle\n");
-	return 0;
+	return (0);
+
 }
