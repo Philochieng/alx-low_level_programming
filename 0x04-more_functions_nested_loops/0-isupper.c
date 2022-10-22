@@ -14,11 +14,11 @@ int main(void)
 
 	if (isupper(c))
 	{
-		printf("%c: 1", c);
+		printf("%c: 1\n", c);
 	}
 	else
 	{
-		printf("%c: 0", c);
+		printf("%c: 0\n", c);
 	}
 	
 	return (0);
