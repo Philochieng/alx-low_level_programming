@@ -1,12 +1,27 @@
-#include <unistd.h>
+#ifndef MAIN_H
+#define MAIN_H
+
 /**
- * _isupper -checks the caseof the character c and sends it to standard output
  *
- * _putchar - writes the character c to stdout
+ * main - header file for protoypes
  *
- * @c: The character to print
+ * void protoypes (void)
  *
- * Return: 1 if c is uppercase else 0.
+ * int protoypes (int)
+ *
  */
-int _putchar(char c);
-int _isupper(int c);
+
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
+void print_number(int n);
+int _putchar(char);
+int _isupper(int);
+int _isdigit(int);
+int mul(int, int);
+
+#endif /* MAIN_H */
