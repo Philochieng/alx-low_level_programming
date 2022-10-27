@@ -1,10 +1,8 @@
-
-#include "main.h ZZ
+#include "main.h"
 
 /**
- * _strlen - counts and returns string length
+ * _strlen - returns string length
  * @s: the string
- *
  * Return the length
  */
 
