@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * print_number - prints an integer
  * @n: random integer
@@ -22,8 +23,9 @@ void print_number(int n)
 	{
 		ld = (char)((n % 10) + '0');
 		n = n / 10;
-		r - 0;
 	}
+	r = 0;
+
 	while (n > 0)
 	{
 		r = r * 10 + (n % 10);
