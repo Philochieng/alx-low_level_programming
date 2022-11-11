@@ -1,9 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdio.h>
 
 /**
- * File, main.h
+ * File main.h contains prototypes.
+ *
  * Desc: Header file with all function declarations for this project's tasks.
+ * malloc_checked returns:
  */
 
 void *malloc_checked(unsigned int b);
